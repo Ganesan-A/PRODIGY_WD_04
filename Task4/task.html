@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="shortcut icon" href="./images/clear.png" type="image/x-icon">
+</head>
+<body>
+    <div class="weather">
+        <h1>Weather Check</h1>
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false" id="searchinp" >
+            <button onclick="getweather() "id="searchbutton">Search</button>
+            
+            </div>
+            <div class="weather-img">
+                <img src="./images/clouds.png" alt="">
+            </div>
+            <div  id="city-info"></div>
+            <div  id="city-data"></div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
